@@ -1,5 +1,28 @@
-#main_box
+body
 {
-    height: 45vw;
-    background-color: black;
+    background: url('./assets/bg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+form
+{
+    position: relative;
+    background: url('./assets/subbg.jpg'); 
+    max-width:70vw; 
+    min-height:28vw;
+    top: 10vw;
+}
+form input
+{
+    width: 70%;
+    height: 5vw;
+    border: 1px blue;
+}
+#next_btn
+{
+    visibility: hidden;
+    background:purple;
+    border: 1px purple;
+    height: 4vw;
 }
